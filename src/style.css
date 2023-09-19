@@ -112,3 +112,22 @@ figure {
 figure img {
   width: 100%;
 }
+header ul {
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.02rem;
+}
+header li:not(:first-child) {
+  margin-left: 1rem;
+}
+header h1 {
+  text-align: center;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+.gallery img {
+  width: 100%;
+}
